@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     
     # Gemini / OpenAI Config
     OPENAI_API_BASE: str = "https://generativelanguage.googleapis.com/v1beta/openai/"    # The Gemini / compatible base URL
-    OPENAI_API_KEY: str = "AIzaSyDigcXy_Cyfkik0XKab9a-NtaMAjVkaYCg"     # API Key
+    OPENAI_API_KEY: str = ""     # API Key
 
     # Qdrant Config
     QDRANT_URL: str = "http://localhost:6333"
